@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+        <title>Página Básica con Barra de Navegación Horizontal</title>
+        <style>
+            .navbar{
+                background-color: rgb(0, 10, 62);
+                padding: 5px;
+                width: 100%;
+            }
+
+            .navbar ul{
+                list-style-type: none;
+                display: flex;
+                justify-content: center;
+            }
+
+            .navbar li{
+                margin: 0 45px;
+            }
+
+            .navbar a{
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+            }
+
+            .navbar a:hover{
+                background-color: rgb(69, 57, 148)
+            }
+            section{
+                padding: 10px;
+                margin: 20px auto;
+                border: 5px solid rgb(75, 80, 206);
+                background-color: rgb(55, 148, 236);
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+            <section>
+                <h2>Inicio</h2>
+                <p>¡Hola! Esta es una página creada por Gaby Medina.</p>
+            </section>
+            <section>
+                <h2>Servicios</h2>
+                <p>Descripción de prueba:)</p>
+            </section>
+            <section>
+                <h2>Contacto</h2>
+                <p>zS21009934@estudiantes.uv.mx</p>
+            </section>
+    </body>
+</html>
